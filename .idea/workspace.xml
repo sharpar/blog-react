@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa26f1c6-b774-44e9-a171-39b71c370d0a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pos-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pos-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/posts-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts-new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="posts-new.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="posts-new.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/posts-new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="320">
+              <caret line="16" column="105" lean-forward="true" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -51,8 +58,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="80">
+              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -72,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pos-index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pos-index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/pos-index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -103,12 +110,12 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/notes.md" />
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/reducer-posts.js" />
         <option value="$PROJECT_DIR$/src/actions/index.js" />
-        <option value="$PROJECT_DIR$/src/components/posts-new.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/pos-index.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/components/posts-new.js" />
       </list>
     </option>
   </component>
@@ -248,7 +255,7 @@
       <workItem from="1531238360538" duration="8713000" />
       <workItem from="1531320231611" duration="1944000" />
       <workItem from="1531322187430" duration="19963000" />
-      <workItem from="1531491920950" duration="2965000" />
+      <workItem from="1531491920950" duration="8645000" />
     </task>
     <task id="LOCAL-00001" summary="Commit initial files from Redux starter repo">
       <created>1531239715275</created>
@@ -292,26 +299,33 @@
       <option name="project" value="LOCAL" />
       <updated>1531427732156</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add link to new posts page/component on the main index page">
+      <created>1531495106900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531495106900</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33585000" />
+    <option name="totallyTimeSpent" value="39265000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1974" y="-8" width="1874" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81292987" visible="true" weight="0.18412349" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81329924" visible="true" weight="0.18412349" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005513" side_tool="true" weight="0.19685864" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32914045" />
       <window_info anchor="right" id="Copy/Paste" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.23874345" />
-      <window_info id="npm" order="2" sideWeight="0.18707015" side_tool="true" visible="true" weight="0.18412349" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.18115184" />
+      <window_info id="npm" order="2" sideWeight="0.18670076" side_tool="true" visible="true" weight="0.18412349" />
       <window_info id="Structure" order="1" sideWeight="0.1851369" side_tool="true" weight="0.18191841" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32929292" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32879582" />
       <window_info id="Favorites" order="2" sideWeight="0.1851369" side_tool="true" weight="0.18191841" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -357,19 +371,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Commit initial files from Redux starter repo" />
     <MESSAGE value="Setup first component, blog index page, using react routes" />
     <MESSAGE value="Create new action creator to get posts" />
     <MESSAGE value="Create new reducer for blog posts" />
     <MESSAGE value="Show posts from the api requests on root page" />
     <MESSAGE value="Create new component for new post, use Switch to fix react route bug &#10;&#10;- /posts/new was still rendering the posts-index component because it &#10;was matching all routes with a /" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new component for new post, use Switch to fix react route bug &#10;&#10;- /posts/new was still rendering the posts-index component because it &#10;was matching all routes with a /" />
+    <MESSAGE value="Add link to new posts page/component on the main index page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add link to new posts page/component on the main index page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/posts-new.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -574,39 +594,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/posts-new.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pos-index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pos-index.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="80">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/posts-new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="105" lean-forward="true" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
