@@ -1,7 +1,8 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPosts } from "../actions"; // the action creator 
+import { Link } from 'react-router-dom'; // like anchor tag, to go to diff pages/components
+import { fetchPosts } from "../actions"; // the action creator
 
 class PostsIndex extends Component {
 
@@ -23,6 +24,11 @@ class PostsIndex extends Component {
         console.log(this.props.posts);
         return (
             <div>
+                <div className={'text-xs-right'}>
+                    <Link className="btn btn-primary" to={'/posts/new'}>
+                        Add a post
+                    </Link>
+                </div>
                 <h3>Blog Posts</h3>
                 <ul className={'list-group'}>
                     {this.renderPosts()}
