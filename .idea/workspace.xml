@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa26f1c6-b774-44e9-a171-39b71c370d0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/posts-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts-new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,14 +28,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="posts-new.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="posts-new.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/posts-new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="570">
+              <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -100,6 +108,14 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>`</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>`</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -114,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/components/pos-index.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/components/posts-new.js" />
+        <option value="$PROJECT_DIR$/style/style.css" />
       </list>
     </option>
   </component>
@@ -189,6 +206,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-react" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,7 +235,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,7 +277,7 @@
       <workItem from="1531322187430" duration="19963000" />
       <workItem from="1531491920950" duration="8645000" />
       <workItem from="1531755186176" duration="178000" />
-      <workItem from="1531755370835" duration="2041000" />
+      <workItem from="1531755370835" duration="8457000" />
     </task>
     <task id="LOCAL-00001" summary="Commit initial files from Redux starter repo">
       <created>1531239715275</created>
@@ -306,24 +328,38 @@
       <option name="project" value="LOCAL" />
       <updated>1531495106900</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add input fields to new post form">
+      <created>1531758274275</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531758274275</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Validate form, and show error messages and styling when necessary">
+      <created>1531768557317</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531768557317</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41484000" />
+    <option name="totallyTimeSpent" value="47900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1269" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8101952" visible="true" weight="0.20782396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8101952" visible="true" weight="0.15729421" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.18044445" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012225" side_tool="true" weight="0.18044445" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987775" visible="true" weight="0.18044445" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32914045" />
       <window_info anchor="right" id="Copy/Paste" order="3" />
-      <window_info id="npm" order="2" sideWeight="0.18980478" side_tool="true" visible="true" weight="0.20782396" />
+      <window_info id="npm" order="2" sideWeight="0.18980478" side_tool="true" visible="true" weight="0.15729421" />
       <window_info id="Structure" order="1" sideWeight="0.1851369" side_tool="true" weight="0.18191841" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32879582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -380,7 +416,9 @@
     <MESSAGE value="Show posts from the api requests on root page" />
     <MESSAGE value="Create new component for new post, use Switch to fix react route bug &#10;&#10;- /posts/new was still rendering the posts-index component because it &#10;was matching all routes with a /" />
     <MESSAGE value="Add link to new posts page/component on the main index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add link to new posts page/component on the main index page" />
+    <MESSAGE value="Add input fields to new post form" />
+    <MESSAGE value="Validate form, and show error messages and styling when necessary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validate form, and show error messages and styling when necessary" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/posts-new.js">
@@ -718,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/reducer-posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -738,13 +766,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/posts-new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="570">
+          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
