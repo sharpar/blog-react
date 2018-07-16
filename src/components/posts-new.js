@@ -4,28 +4,42 @@ import { Field, reduxForm } from 'redux-form';
 class PostsNew extends Component {
 
     renderField(field) {
+        const { meta: { touched, error } } = field;
+        const className = `form-group ${touched && error ? 'has-danger' : ''}`;
+
         return (
-            <div className={'form-group'}>
+            <div className={className}>
                 <label>{field.label}</label>
-                <input className={'form-control'}
-                       type={'text'}
-                       {...field.input} // passing in the pre-generated event handlers
+                <input
+                    className={'form-control'}
+                    type={'text'}
+                    {...field.input} // passing in the pre-generated event handlers
                 />
+                <div className={'text-help'}>
+                    {touched ? error : ''}
+                </div>
             </div>
-        )
+        );
+    }
+
+    onSubmit(values) {
+        console.log(values);
     }
 
     render() {
+
+        const { handleSubmit } = this.props;
+
         return (
-            <form action="">
+            <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
                 <Field
                     label={'Title for Post'}
                     name={'title'}
                     component={this.renderField}
                 />
                 <Field
-                    label={'Tags'}
-                    name={'tags'}
+                    label={'Categories'}
+                    name={'categories'}
                     component={this.renderField}
                 />
                 <Field
@@ -33,12 +47,41 @@ class PostsNew extends Component {
                     name={'content'}
                     component={this.renderField}
                 />
+                <button
+                    type={'submit'}
+                    className={'btn btn-primary'}>
+                    Submit
+                </button>
             </form>
         )
     }
 }
 
+function validate(values) {
+    const errors = {};
+
+
+    // Validate the inputs from 'values'
+    if (!values.title || values.title.length < 3) {
+        errors.title = 'Enter a title that is at least 3 characters!';
+    }
+
+    if (!values.categories) {
+        errors.categories = 'Enter some categories';
+    }
+
+    if (!values.content) {
+        errors.content = 'Enter some content please'
+    }
+
+    // if empty, nothing wrong with form entries, fine to submit
+    // if not empty (has any properties), form is invalid
+    return errors;
+
+}
+
 export default reduxForm({
     // configuration options
+    validate,
     form: 'PostsNewForm' // form name, needs to be unique
 })(PostsNew);
