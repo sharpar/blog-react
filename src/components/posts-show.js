@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchPost } from '../actions';
+import { deletePost, fetchPost } from '../actions';
 
 class PostsShow extends Component {
 
     componentDidMount() { // React lifecylce event, runs automatically on component render
-        const { id } = this.props.match.params;
+        const { id } = this.props.match.params; // params object provided by react router 
         this.props.fetchPost(id);
+    }
+
+    onDeleteClick() {
+        const { id } = this.props.match.params;
+        this.props.deletePost(id, () => {
+            this.props.history.push('/');
+        });
     }
 
     render() {
@@ -18,6 +25,11 @@ class PostsShow extends Component {
         return (
             <div>
                 <Link to={'/'}>Back to index</Link>
+                <button
+                    className="btn btn-danger pull-xs-right"
+                    onClick={this.onDeleteClick.bind(this)}>
+                    Delete Post
+                </button>
                 <h3>{post.title}</h3>
                 <h6>Categories: {post.categories}</h6>
                 <p>{post.content}</p>
@@ -31,4 +43,4 @@ function mapStateToProps({ posts }, ownProps) {
     return { post: posts[ownProps.match.params.id] };
 }
 
-export default connect(mapStateToProps, { fetchPost })(PostsShow);
+export default connect(mapStateToProps, { deletePost, fetchPost })(PostsShow);
