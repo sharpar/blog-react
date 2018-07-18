@@ -14,6 +14,8 @@ class PostsShow extends Component {
         const { id } = this.props.match.params;
         this.props.deletePost(id, () => {
             this.props.history.push('/');
+            // call back to the action creater,
+            // which will be called after the a.c is done executing
         });
     }
 
